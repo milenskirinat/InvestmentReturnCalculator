@@ -1,0 +1,118 @@
+/* src/styles/global.css */
+
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background-color: #f9f9f9;
+	color: #333;
+  }
+  
+  h1, h2, h3 {
+	margin: 0;
+	padding: 10px 0;
+  }
+  
+  button {
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	padding: 10px 15px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+  }
+  
+  button:hover {
+	background-color: #0056b3;
+  }
+  
+  input {
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin: 5px 0;
+  }
+  
+  .container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+  }
+  
+  .card {
+	background: #fff;
+	border-radius: 8px;
+	padding: 20px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	margin-bottom: 20px;
+  }
+  
+  .input-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 20px;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .rate-container {
+	text-align: center;
+	margin: 20px 0;
+  }
+  
+  .rate-value {
+	font-size: 18px;
+	color: #007bff;
+	font-weight: bold;
+  }
+  
+  .button-reset {
+	margin: 20px auto;
+	padding: 12px 20px;
+	background-color: red;
+	color: white;
+	border-radius: 5px;
+	font-size: 16px;
+	width: 200px;
+	cursor: pointer;
+	display: block;
+	text-align: center;
+  }
+  
+  .button-reset:hover {
+	background-color: darkred;
+  }
+  
+  
+  @media (min-width: 1024px) {
+	.input-grid {
+	  grid-template-columns: repeat(4, 1fr);
+	}
+  
+	.rate-container {
+	  grid-column: span 1;
+	}
+  }
+  
+  
+  @media (max-width: 768px) { 
+	.input-grid {
+	  display: grid;
+	  grid-template-columns: 1fr; 
+	  gap: 15px; 
+	  justify-items: center;
+	}
+  
+	.rate-container {
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  text-align: center;
+	  margin: 10px 0;
+	}
+  
+	.button-reset {
+	  width: 100%; 
+	  margin: 20px 0;
+	}
+  }
