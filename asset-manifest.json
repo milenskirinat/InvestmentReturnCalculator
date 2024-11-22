@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/InvestmentReturnCalculator/static/css/main.44f5b1a5.css",
+    "main.js": "/InvestmentReturnCalculator/static/js/main.6c6953dc.js",
+    "static/js/453.6bce19b9.chunk.js": "/InvestmentReturnCalculator/static/js/453.6bce19b9.chunk.js",
+    "index.html": "/InvestmentReturnCalculator/index.html",
+    "main.44f5b1a5.css.map": "/InvestmentReturnCalculator/static/css/main.44f5b1a5.css.map",
+    "main.6c6953dc.js.map": "/InvestmentReturnCalculator/static/js/main.6c6953dc.js.map",
+    "453.6bce19b9.chunk.js.map": "/InvestmentReturnCalculator/static/js/453.6bce19b9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44f5b1a5.css",
+    "static/js/main.6c6953dc.js"
+  ]
+}
